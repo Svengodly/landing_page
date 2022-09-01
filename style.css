@@ -1,18 +1,24 @@
+
+body {
+    font-family: "Roboto";
+}
+
 .headerlogo,
 .sign {
-    width: 1200px;
-    align-content: center;
+    width: 1100px;
 }
+
 .headerlogo {
     display: flex;
     justify-content: space-between;
-    border: 3px solid blue;
+    align-items: center;
+    /* border: 3px solid blue; */
 }
 
 .sign {
     display: flex;
-    justify-content: space-between;
-    flex: auto;
+    /* border: 3px red solid; */
+    height: 240px;
 }
 
 .section1 {
@@ -23,3 +29,62 @@
     align-items: center;
 }
 
+.section1 > div {
+    margin-bottom: 100px;
+}
+
+.section1 ul {
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.awesome2 {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.holder {
+    background-color: grey;
+    display: flex;
+    /* flex: 1 1 50%; */
+    align-items: center;
+    justify-content: center;
+}
+/* The below declaration gives an equal amount of space to each item in the 'sign' containter*/
+.aweflex,
+.holder {
+    flex: 1;
+}
+
+.aweflex {
+    padding-right: 75px;
+}
+
+
+button {
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+}
