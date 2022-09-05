@@ -90,15 +90,15 @@ button {
 }
 
 .box div{
-    border: 5px solid #3882f6;
+    border: 3px solid #3882f6;
     height: 150px;
     width: 150px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .box-text.box {
     border: none;
-    /* font-size: 18px; */
+    /* font-size: 17px; */
     color: gray;
 }
 
@@ -158,7 +158,24 @@ button {
     justify-content: space-around;
     background-color: #3882f6;
     align-items: center;
-    padding: 50px 50px;
+    padding: 50px 35px;
     width: 1000px;
+    border-radius: 10px;
+}
+
+.action {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.action + div {
+    color: #f9faf8
+}
+
+.section4 button {
+    border: solid white 2px;
+    justify-items: center;
+    margin: 0px;
 }
 
