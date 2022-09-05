@@ -64,7 +64,6 @@ a {
 .holder {
     background-color: grey;
     display: flex;
-    /* flex: 1 1 50%; */
     align-items: center;
     justify-content: center;
 }
@@ -179,3 +178,10 @@ button {
     margin: 0px;
 }
 
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    color: #f9faf8;
+    padding: 40px 0px;
+}
