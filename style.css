@@ -145,3 +145,20 @@ button {
     font-style: normal;
 }
 
+.section4 {
+    display: flex;
+    /* color: white; */
+    justify-content: space-around;
+    padding: 100px;
+    align-items: center;
+}
+
+.section4 > div {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    align-items: center;
+    padding: 50px 50px;
+    width: 1000px;
+}
+
