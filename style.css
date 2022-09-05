@@ -103,11 +103,11 @@ button {
 .box-width {
     display: flex;
     text-align: center;
+    gap: 50px;
 }
 
 .section2 {
     display: flex;
-    border: solid red 5px;
     flex-direction: column;
     align-items: center;
 }
